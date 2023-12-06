@@ -29,7 +29,7 @@ describe("Recursion", function () {
 
     describe.skip(".getSum", function () {
       it("returns the sum of all the numbers in the array", function () {
-        expect(getSum([])).to.be.undefined;
+        expect(getSum([])).to.be.null;
         expect(getSum([0])).to.equal(0);
         expect(getSum([3])).to.equal(3);
         expect(getSum([-5])).to.equal(-5);
@@ -107,7 +107,7 @@ describe("Recursion", function () {
         expect(sumOfDigits(5)).to.equal(15);
         expect(sumOfDigits(1)).to.equal(1);
         expect(sumOfDigits(9)).to.equal(45);
-        expect(sumOfDigits(-8)).to.be.undefined;
+        expect(sumOfDigits(-8)).to.be.null;
       });
     });
 
@@ -124,7 +124,7 @@ describe("Recursion", function () {
     context("Slightly More Challenging Problems", function () {
       describe.skip(".findMax", function () {
         it("returns the max element in the array", function () {
-          expect(findMax([])).to.be.undefined;
+          expect(findMax([])).to.be.null;
           expect(findMax([8])).to.equal(8);
           expect(findMax([8, 3, 5, 1, 9])).to.equal(9);
           expect(findMax([8, 3, 5, 1, 9, 4, 7, 2, 10, 6])).to.equal(10);
