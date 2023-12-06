@@ -40,6 +40,8 @@ describe("Recursion", function () {
 
     describe.skip(".factorial", function () {
       it("returns the product of all positive integers less than or equal to n", function () {
+        // 5! => 5 * 4 * 3 * 2 * 1 = 120
+
         expect(factorial(0)).to.equal(1);
         expect(factorial(1)).to.equal(1);
         expect(factorial(2)).to.equal(2);
@@ -63,6 +65,8 @@ describe("Recursion", function () {
 
     describe.skip(".power", function () {
       it("returns a number to a specific power", function () {
+        // power(base, exponent) # 2 to the 4th power => 2 * 2 * 2 * 2 = 16
+
         expect(power(2, 0)).to.equal(1);
         expect(power(2, 1)).to.equal(2);
         expect(power(2, 2)).to.equal(4);
@@ -78,6 +82,8 @@ describe("Recursion", function () {
 
     describe.skip(".isPalindrome", function () {
       it("returns true/false for whether the given input is a palindrome", function () {
+        // A palindrome is word/number that reads the same forwards and backwards. Examples include racecar, tacocat, and toot.
+
         expect(isPalindrome("")).to.be.true;
         expect(isPalindrome("a")).to.be.true;
         expect(isPalindrome("racecar")).to.be.true;
@@ -168,6 +174,8 @@ describe("Recursion", function () {
     context("Challenging Problems", function () {
       describe.skip(".fibonacci", function () {
         it("returns the nth number in the Fibonacci sequence", function () {
+          // The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. It starts with 0 and 1, and the sequence goes like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on.
+          
           expect(fibonacci(0)).to.equal(0);
           expect(fibonacci(1)).to.equal(1);
           expect(fibonacci(2)).to.equal(1);
