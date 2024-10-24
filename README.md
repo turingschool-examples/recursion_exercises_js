@@ -1,7 +1,8 @@
 ## JS Playground for Recursion Lesson Exercises
 
 ### Instructions
-* Navigate to the recursion_exercises_js directory
+* Clone this repo
+* `cd` into this repo
 * Run `npm install`
 * Run `npm test` to run the tests in the test file.
 * Write your code in the lib/recursion.js file to pass the tests.
